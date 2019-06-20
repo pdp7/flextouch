@@ -1,0 +1,449 @@
+EESchema Schematic File Version 4
+LIBS:touchband-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5CFD8ABE
+P 2900 1800
+F 0 "TP1" V 2854 1988 50  0000 L CNN
+F 1 "TestPoint" V 2945 1988 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 1800 50  0001 C CNN
+F 3 "~" H 3100 1800 50  0001 C CNN
+	1    2900 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5D02263C
+P 2350 1800
+F 0 "J1" H 2242 1575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 1666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 1800 50  0001 C CNN
+F 3 "~" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5D0239F0
+P 2000 1800
+F 0 "J2" H 1892 1575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1892 1666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 1800 50  0001 C CNN
+F 3 "~" H 2000 1800 50  0001 C CNN
+	1    2000 1800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 1800
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D083CE9
+P 2900 2000
+F 0 "TP2" V 2854 2188 50  0000 L CNN
+F 1 "TestPoint" V 2945 2188 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 2000 50  0001 C CNN
+F 3 "~" H 3100 2000 50  0001 C CNN
+	1    2900 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 5D083CF0
+P 2350 2000
+F 0 "J8" H 2242 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 1866 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 2000 50  0001 C CNN
+F 3 "~" H 2350 2000 50  0001 C CNN
+	1    2350 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5D083CF7
+P 2000 2000
+F 0 "J3" H 1892 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1892 1866 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 2000 50  0001 C CNN
+F 3 "~" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 2000
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D083E0B
+P 2900 2200
+F 0 "TP3" V 2854 2388 50  0000 L CNN
+F 1 "TestPoint" V 2945 2388 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 2200 50  0001 C CNN
+F 3 "~" H 3100 2200 50  0001 C CNN
+	1    2900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 5D083E12
+P 2350 2200
+F 0 "J9" H 2242 1975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 2066 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 2200 50  0001 C CNN
+F 3 "~" H 2350 2200 50  0001 C CNN
+	1    2350 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5D083E19
+P 2000 2200
+F 0 "J4" H 1892 1975 50  0000 C CNN
+F 1 "\\" H 1892 2066 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 2200 50  0001 C CNN
+F 3 "~" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 2200
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D083E21
+P 2900 2400
+F 0 "TP4" V 2854 2588 50  0000 L CNN
+F 1 "TestPoint" V 2945 2588 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 2400 50  0001 C CNN
+F 3 "~" H 3100 2400 50  0001 C CNN
+	1    2900 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 5D083E28
+P 2350 2400
+F 0 "J10" H 2242 2175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 2266 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 2400 50  0001 C CNN
+F 3 "~" H 2350 2400 50  0001 C CNN
+	1    2350 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5D083E2F
+P 2000 2400
+F 0 "J5" H 1892 2175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1892 2266 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 2400 50  0001 C CNN
+F 3 "~" H 2000 2400 50  0001 C CNN
+	1    2000 2400
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 2400
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D083F42
+P 2900 2600
+F 0 "TP5" V 2854 2788 50  0000 L CNN
+F 1 "TestPoint" V 2945 2788 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    2900 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J11
+U 1 1 5D083F49
+P 2350 2600
+F 0 "J11" H 2242 2375 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 2466 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 2600 50  0001 C CNN
+F 3 "~" H 2350 2600 50  0001 C CNN
+	1    2350 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5D083F50
+P 2000 2600
+F 0 "J6" H 1892 2375 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1892 2466 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 2600 50  0001 C CNN
+F 3 "~" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 2600
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D083F58
+P 2900 2800
+F 0 "TP6" V 2854 2988 50  0000 L CNN
+F 1 "TestPoint" V 2945 2988 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 3100 2800 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    2900 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 5D083F5F
+P 2350 2800
+F 0 "J12" H 2242 2575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 2666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2350 2800 50  0001 C CNN
+F 3 "~" H 2350 2800 50  0001 C CNN
+	1    2350 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5D083F66
+P 2000 2800
+F 0 "J7" H 1892 2575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1892 2666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 2000 2800 50  0001 C CNN
+F 3 "~" H 2000 2800 50  0001 C CNN
+	1    2000 2800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2200 2800
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5D0841B4
+P 4100 1800
+F 0 "TP7" V 4054 1988 50  0000 L CNN
+F 1 "TestPoint" V 4145 1988 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 1800 50  0001 C CNN
+F 3 "~" H 4300 1800 50  0001 C CNN
+	1    4100 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J13
+U 1 1 5D0841BB
+P 4650 1800
+F 0 "J13" H 4542 1575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 1666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 1800 50  0001 C CNN
+F 3 "~" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J19
+U 1 1 5D0841C2
+P 5000 1800
+F 0 "J19" H 4892 1575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 1666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 1800 50  0001 C CNN
+F 3 "~" H 5000 1800 50  0001 C CNN
+	1    5000 1800
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 1800
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5D0841CA
+P 4100 2000
+F 0 "TP8" V 4054 2188 50  0000 L CNN
+F 1 "TestPoint" V 4145 2188 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 2000 50  0001 C CNN
+F 3 "~" H 4300 2000 50  0001 C CNN
+	1    4100 2000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J14
+U 1 1 5D0841D1
+P 4650 2000
+F 0 "J14" H 4542 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 1866 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 2000 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J20
+U 1 1 5D0841D8
+P 5000 2000
+F 0 "J20" H 4892 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 1866 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 2000 50  0001 C CNN
+F 3 "~" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 2000
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5D0841E0
+P 4100 2200
+F 0 "TP9" V 4054 2388 50  0000 L CNN
+F 1 "TestPoint" V 4145 2388 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 2200 50  0001 C CNN
+F 3 "~" H 4300 2200 50  0001 C CNN
+	1    4100 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J15
+U 1 1 5D0841E7
+P 4650 2200
+F 0 "J15" H 4542 1975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 2066 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 2200 50  0001 C CNN
+F 3 "~" H 4650 2200 50  0001 C CNN
+	1    4650 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J21
+U 1 1 5D0841EE
+P 5000 2200
+F 0 "J21" H 4892 1975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 2066 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 2200
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5D0841F6
+P 4100 2400
+F 0 "TP10" V 4054 2588 50  0000 L CNN
+F 1 "TestPoint" V 4145 2588 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 2400 50  0001 C CNN
+F 3 "~" H 4300 2400 50  0001 C CNN
+	1    4100 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 5D0841FD
+P 4650 2400
+F 0 "J16" H 4542 2175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 2266 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 2400 50  0001 C CNN
+F 3 "~" H 4650 2400 50  0001 C CNN
+	1    4650 2400
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J22
+U 1 1 5D084204
+P 5000 2400
+F 0 "J22" H 4892 2175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 2266 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 2400 50  0001 C CNN
+F 3 "~" H 5000 2400 50  0001 C CNN
+	1    5000 2400
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 2400
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5D08420C
+P 4100 2600
+F 0 "TP11" V 4054 2788 50  0000 L CNN
+F 1 "TestPoint" V 4145 2788 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 2600 50  0001 C CNN
+F 3 "~" H 4300 2600 50  0001 C CNN
+	1    4100 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J17
+U 1 1 5D084213
+P 4650 2600
+F 0 "J17" H 4542 2375 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 2466 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 2600 50  0001 C CNN
+F 3 "~" H 4650 2600 50  0001 C CNN
+	1    4650 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J23
+U 1 1 5D08421A
+P 5000 2600
+F 0 "J23" H 4892 2375 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 2466 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 2600
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5D084222
+P 4100 2800
+F 0 "TP12" V 4054 2988 50  0000 L CNN
+F 1 "TestPoint" V 4145 2988 50  0000 L CNN
+F 2 "touch:Touch_Pad_10x10mm" H 4300 2800 50  0001 C CNN
+F 3 "~" H 4300 2800 50  0001 C CNN
+	1    4100 2800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J18
+U 1 1 5D084229
+P 4650 2800
+F 0 "J18" H 4542 2575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4542 2666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 4650 2800 50  0001 C CNN
+F 3 "~" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J24
+U 1 1 5D084230
+P 5000 2800
+F 0 "J24" H 4892 2575 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4892 2666 50  0001 C CNN
+F 2 "touch:hole30AWG" H 5000 2800 50  0001 C CNN
+F 3 "~" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    1   
+$EndComp
+NoConn ~ 4800 2800
+Wire Wire Line
+	2550 1800 2900 1800
+Wire Wire Line
+	2550 2000 2900 2000
+Wire Wire Line
+	2550 2200 2900 2200
+Wire Wire Line
+	2550 2400 2900 2400
+Wire Wire Line
+	2550 2600 2900 2600
+Wire Wire Line
+	2550 2800 2900 2800
+Wire Wire Line
+	4100 1800 4450 1800
+Wire Wire Line
+	4100 2000 4450 2000
+Wire Wire Line
+	4100 2200 4450 2200
+Wire Wire Line
+	4100 2400 4450 2400
+Wire Wire Line
+	4100 2600 4450 2600
+Wire Wire Line
+	4100 2800 4450 2800
+$EndSCHEMATC
